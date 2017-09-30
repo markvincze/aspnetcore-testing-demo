@@ -10,7 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
-namespace Demo1.IntegrationTests
+namespace RealmMonitor.IntegrationTests
 {
     public class RealmsTests
     {

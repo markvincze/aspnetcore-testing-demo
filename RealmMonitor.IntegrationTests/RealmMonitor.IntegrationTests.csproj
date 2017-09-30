@@ -17,6 +17,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Demo1\Demo1.csproj" />
+    <ProjectReference Include="..\RealmMonitor\RealmMonitor.csproj" />
   </ItemGroup>
 </Project>

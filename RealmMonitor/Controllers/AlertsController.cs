@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
-using Demo1.Models;
+using RealmMonitor.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Demo1.Controllers
+namespace RealmMonitor.Controllers
 {
     [Route("api/[controller]")]
     public class AlertsController : Controller

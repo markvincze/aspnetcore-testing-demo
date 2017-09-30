@@ -2,12 +2,12 @@
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Demo1.Models;
+using RealmMonitor.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json.Linq;
 
-namespace Demo1
+namespace RealmMonitor
 {
     public class BattleNetApi : IBattleNetApi
     {

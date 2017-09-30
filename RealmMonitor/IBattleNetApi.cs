@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Demo1.Models;
+using RealmMonitor.Models;
 
-namespace Demo1
+namespace RealmMonitor
 {
     public interface IBattleNetApi
     {

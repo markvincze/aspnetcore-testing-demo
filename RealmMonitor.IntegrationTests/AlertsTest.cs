@@ -13,7 +13,7 @@ using Newtonsoft.Json.Linq;
 using Stubbery;
 using Xunit;
 
-namespace Demo1.IntegrationTests
+namespace RealmMonitor.IntegrationTests
 {
     public class AlertsTest
     {

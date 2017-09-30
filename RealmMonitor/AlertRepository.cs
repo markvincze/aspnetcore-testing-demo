@@ -2,10 +2,10 @@
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using Dapper;
-using Demo1.Models;
+using RealmMonitor.Models;
 using Microsoft.Extensions.Configuration;
 
-namespace Demo1
+namespace RealmMonitor
 {
     public class AlertRepository : IAlertRepository
     {

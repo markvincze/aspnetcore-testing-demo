@@ -1,4 +1,4 @@
-﻿namespace Demo1.Models
+﻿namespace RealmMonitor.Models
 {
     public class Realm
     {

@@ -6,7 +6,7 @@ using System.Text;
 using Dapper;
 using Newtonsoft.Json.Linq;
 
-namespace Demo1.IntegrationTests
+namespace RealmMonitor.IntegrationTests
 {
     public static class DbSeeder
     {

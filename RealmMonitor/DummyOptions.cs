@@ -1,4 +1,4 @@
-﻿namespace Demo1
+﻿namespace RealmMonitor
 {
     public class DummyOptions
     {

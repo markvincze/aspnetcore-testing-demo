@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Demo1.Controllers
+namespace RealmMonitor.Controllers
 {
     [Route("api/[controller]")]
     public class RealmsController : Controller

@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Demo1.Controllers;
-using Demo1.Models;
+using RealmMonitor.Controllers;
+using RealmMonitor.Models;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;
 
-namespace Demo1.UnitTests
+namespace RealmMonitor.UnitTests
 {
     public class AlertsControllerTests
     {

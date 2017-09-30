@@ -2,11 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo1", "Demo1\Demo1.csproj", "{D3CA3CDB-BC2A-4486-9D65-443B227DEBB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealmMonitor", "RealmMonitor\RealmMonitor.csproj", "{D3CA3CDB-BC2A-4486-9D65-443B227DEBB7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo1.IntegrationTests", "Demo1.IntegrationTests\Demo1.IntegrationTests.csproj", "{2B995B26-137B-4931-ABA2-96BA3025D22A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealmMonitor.IntegrationTests", "RealmMonitor.IntegrationTests\RealmMonitor.IntegrationTests.csproj", "{2B995B26-137B-4931-ABA2-96BA3025D22A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo1.UnitTests", "Demo1.UnitTests\Demo1.UnitTests.csproj", "{98DF1EF7-A66D-4B2C-B2B7-0B3DD794B3FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealmMonitor.UnitTests", "RealmMonitor.UnitTests\RealmMonitor.UnitTests.csproj", "{98DF1EF7-A66D-4B2C-B2B7-0B3DD794B3FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
