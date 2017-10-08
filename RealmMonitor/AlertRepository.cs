@@ -10,6 +10,7 @@ namespace RealmMonitor
     public class AlertRepository : IAlertRepository
     {
         private readonly IConfiguration configuration;
+
         public AlertRepository(IConfiguration configuration)
         {
             this.configuration = configuration;
@@ -17,7 +18,7 @@ namespace RealmMonitor
 
         public async Task<IEnumerable<Alert>> List()
         {
-            // TODO: implement!
+            return null; // TODO: implement!
         }
 
         public async Task InsertAlert(Alert alert)

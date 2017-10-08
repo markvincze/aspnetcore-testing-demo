@@ -20,13 +20,13 @@ namespace RealmMonitor.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            // TODO: implement!
+            return null; // TODO: implement!
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]Alert alert)
         {
-            // TODO: implement!
+            return null; // TODO: implement!
         }
     }
 }

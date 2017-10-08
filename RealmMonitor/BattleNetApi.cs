@@ -20,7 +20,7 @@ namespace RealmMonitor
 
         public async Task<IEnumerable<Realm>> GetRealms()
         {
-            // TODO: implement!
+            return null; // TODO: implement!
         }
     }
 }

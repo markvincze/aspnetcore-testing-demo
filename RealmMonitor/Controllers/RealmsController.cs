@@ -16,7 +16,7 @@ namespace RealmMonitor.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            // TODO: implement!
+            return null; // TODO: implement!
         }
     }
 }
