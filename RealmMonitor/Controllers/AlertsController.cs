@@ -20,24 +20,13 @@ namespace RealmMonitor.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var alerts = await alertRepository.List();
-
-            return Ok(alerts);
+            // TODO: implement!
         }
 
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]Alert alert)
         {
-            var realms = await battleNetApi.GetRealms();
-
-            if (!realms.Any(r => r.Name == alert.RealmName))
-            {
-                return BadRequest();
-            }
-
-            await alertRepository.InsertAlert(alert);
-
-            return Ok();
+            // TODO: implement!
         }
     }
 }

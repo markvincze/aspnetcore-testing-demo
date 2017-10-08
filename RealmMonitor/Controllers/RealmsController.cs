@@ -16,9 +16,7 @@ namespace RealmMonitor.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var realms = await battleNetApi.GetRealms();
-
-            return Ok(realms);
+            // TODO: implement!
         }
     }
 }

@@ -17,20 +17,12 @@ namespace RealmMonitor
 
         public async Task<IEnumerable<Alert>> List()
         {
-            using (var conn = new SqlConnection(configuration["ConnectionString"]))
-            {
-                return await conn.QueryAsync<Alert>("SELECT * FROM Alert");
-            }
+            // TODO: implement!
         }
 
         public async Task InsertAlert(Alert alert)
         {
-            using (var conn = new SqlConnection(configuration["ConnectionString"]))
-            {
-                await conn.ExecuteAsync(
-                    "INSERT INTO Alert (RealmName, AlertType) VALUES (@RealmName, @AlertType)",
-                    new { RealmName = alert.RealmName, AlertType = alert.AlertType });
-            }
+            // TODO: implement!
         }
     }
 }
