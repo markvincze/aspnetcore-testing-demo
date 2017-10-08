@@ -13,14 +13,8 @@ namespace RealmMonitor
 {
     public class Startup
     {
-        //public Startup(IHostingEnvironment env)
         public Startup(IConfiguration config)
         {
-            //var builder = new ConfigurationBuilder()
-            //    .SetBasePath(env.ContentRootPath)
-            //    .AddJsonFile("appsettings.json");
-
-            //Configuration = builder.Build();
             Configuration = config;
         }
 
@@ -31,9 +25,8 @@ namespace RealmMonitor
         {
             services.AddSingleton<IAlertRepository, AlertRepository>();
             services.AddSingleton<IBattleNetApi, BattleNetApi>();
-            //services.AddSingleton(Configuration);
+            services.AddSingleton(Configuration);
             services.AddMvc();
-            services.Configure<DummyOptions>(options => Configuration.GetSection("DummyOptions").Bind(options));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
