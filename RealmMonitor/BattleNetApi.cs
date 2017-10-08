@@ -12,12 +12,10 @@ namespace RealmMonitor
     public class BattleNetApi : IBattleNetApi
     {
         private readonly IConfiguration configuration;
-        private readonly DummyOptions dummyOptions;
 
-        public BattleNetApi(IConfiguration configuration, IOptions<DummyOptions> dummyOptions)
+        public BattleNetApi(IConfiguration configuration)
         {
             this.configuration = configuration;
-            this.dummyOptions = dummyOptions.Value;
         }
 
         public async Task<IEnumerable<Realm>> GetRealms()
